@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TestofWills</id>
+    <version>1.0.0</version>
+    <authors>TestofWills</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MonoGame.Content.Builder.Task" version="3.8.0.1641" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Framework.DesktopGL" version="3.8.0.1641" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Arial12.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Arial30.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Arrow.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/background2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Background3.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/black2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/black_hole.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/black_hole_horizontal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/BlueTiltRight.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boosted Music.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/boss animation.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/boss bullets1.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/boss bullets2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/boss bullets3.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boss Death.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boss Hit.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boss Shoot1.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boss Shoot2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boss Shoot3.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Boss2Test.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/boss_2_spritesheet.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Button Click.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonExitHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonExitNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonMenuHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonMenuNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonMenuPauseHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonMenuPauseNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonMenuPlayHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonMenuPlayNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonOptionsHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonOptionsNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonReplayHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonReplayNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonStartHover.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ButtonStartNormal.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/checkbox.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/emptybox.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/enemy.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Full Wizard Idle.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Game Over.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Game Win.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/GameOver.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Gameplay Music.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/GameText.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/GodModeText.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Grey rectangle.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/healthbar.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/healthbar2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Hit_Hurt14.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/hoveredbox.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/hoveredPositive.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Idle.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Menu Music.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/MusicText.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/new player bullets.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/next.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/nextHovered.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/OptionsScreen.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/OptionsScreen2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/player Bullets.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Player Death.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Player Shoot1.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Player Shoot2.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Player Shoot3.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/Positive.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/RedStar.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ship left.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ship right.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/ship straight.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/SpaceBackground.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/SpaceBackground4.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/SpaceshipTest.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/TitleScreen.xnb" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Content/bin/DesktopGL/Content/VictoryScreen.xnb" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Release\netcoreapp3.1\TestofWills.runtimeconfig.json" target="lib\netcoreapp3.1\TestofWills.runtimeconfig.json" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Release\netcoreapp3.1\TestofWills.dll" target="lib\netcoreapp3.1\TestofWills.dll" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Arial12.xnb" target="content\Content\bin\DesktopGL\Content\Arial12.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Arial12.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Arial12.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Arial30.xnb" target="content\Content\bin\DesktopGL\Content\Arial30.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Arial30.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Arial30.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Arrow.xnb" target="content\Content\bin\DesktopGL\Content\Arrow.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Arrow.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Arrow.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\background2.xnb" target="content\Content\bin\DesktopGL\Content\background2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\background2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\background2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Background3.xnb" target="content\Content\bin\DesktopGL\Content\Background3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Background3.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Background3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\black2.xnb" target="content\Content\bin\DesktopGL\Content\black2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\black2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\black2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\black_hole.xnb" target="content\Content\bin\DesktopGL\Content\black_hole.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\black_hole.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\black_hole.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\black_hole_horizontal.xnb" target="content\Content\bin\DesktopGL\Content\black_hole_horizontal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\black_hole_horizontal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\black_hole_horizontal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\BlueTiltRight.xnb" target="content\Content\bin\DesktopGL\Content\BlueTiltRight.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\BlueTiltRight.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\BlueTiltRight.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boosted Music.xnb" target="content\Content\bin\DesktopGL\Content\Boosted Music.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boosted Music.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boosted Music.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss animation.xnb" target="content\Content\bin\DesktopGL\Content\boss animation.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss animation.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\boss animation.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss bullets1.xnb" target="content\Content\bin\DesktopGL\Content\boss bullets1.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss bullets1.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\boss bullets1.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss bullets2.xnb" target="content\Content\bin\DesktopGL\Content\boss bullets2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss bullets2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\boss bullets2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss bullets3.xnb" target="content\Content\bin\DesktopGL\Content\boss bullets3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss bullets3.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\boss bullets3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Death.xnb" target="content\Content\bin\DesktopGL\Content\Boss Death.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Death.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boss Death.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Hit.xnb" target="content\Content\bin\DesktopGL\Content\Boss Hit.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Hit.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boss Hit.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Shoot1.xnb" target="content\Content\bin\DesktopGL\Content\Boss Shoot1.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Shoot1.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boss Shoot1.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Shoot2.xnb" target="content\Content\bin\DesktopGL\Content\Boss Shoot2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Shoot2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boss Shoot2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Shoot3.xnb" target="content\Content\bin\DesktopGL\Content\Boss Shoot3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss Shoot3.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boss Shoot3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss2Test.xnb" target="content\Content\bin\DesktopGL\Content\Boss2Test.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Boss2Test.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Boss2Test.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss_2_spritesheet.xnb" target="content\Content\bin\DesktopGL\Content\boss_2_spritesheet.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\boss_2_spritesheet.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\boss_2_spritesheet.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Button Click.xnb" target="content\Content\bin\DesktopGL\Content\Button Click.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Button Click.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Button Click.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonExitHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonExitHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonExitHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonExitHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonExitNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonExitNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonExitNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonExitNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonMenuHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonMenuHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonMenuNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonMenuNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPauseHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonMenuPauseHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPauseHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonMenuPauseHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPauseNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonMenuPauseNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPauseNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonMenuPauseNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPlayHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonMenuPlayHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPlayHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonMenuPlayHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPlayNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonMenuPlayNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonMenuPlayNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonMenuPlayNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonOptionsHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonOptionsHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonOptionsHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonOptionsHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonOptionsNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonOptionsNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonOptionsNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonOptionsNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonReplayHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonReplayHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonReplayHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonReplayHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonReplayNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonReplayNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonReplayNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonReplayNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonStartHover.xnb" target="content\Content\bin\DesktopGL\Content\ButtonStartHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonStartHover.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonStartHover.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonStartNormal.xnb" target="content\Content\bin\DesktopGL\Content\ButtonStartNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ButtonStartNormal.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ButtonStartNormal.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\checkbox.xnb" target="content\Content\bin\DesktopGL\Content\checkbox.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\checkbox.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\checkbox.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\emptybox.xnb" target="content\Content\bin\DesktopGL\Content\emptybox.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\emptybox.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\emptybox.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\enemy.xnb" target="content\Content\bin\DesktopGL\Content\enemy.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\enemy.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\enemy.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Full Wizard Idle.xnb" target="content\Content\bin\DesktopGL\Content\Full Wizard Idle.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Full Wizard Idle.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Full Wizard Idle.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Game Over.xnb" target="content\Content\bin\DesktopGL\Content\Game Over.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Game Over.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Game Over.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Game Win.xnb" target="content\Content\bin\DesktopGL\Content\Game Win.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Game Win.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Game Win.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\GameOver.xnb" target="content\Content\bin\DesktopGL\Content\GameOver.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\GameOver.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\GameOver.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Gameplay Music.xnb" target="content\Content\bin\DesktopGL\Content\Gameplay Music.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Gameplay Music.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Gameplay Music.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\GameText.xnb" target="content\Content\bin\DesktopGL\Content\GameText.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\GameText.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\GameText.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\GodModeText.xnb" target="content\Content\bin\DesktopGL\Content\GodModeText.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\GodModeText.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\GodModeText.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Grey rectangle.xnb" target="content\Content\bin\DesktopGL\Content\Grey rectangle.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Grey rectangle.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Grey rectangle.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\healthbar.xnb" target="content\Content\bin\DesktopGL\Content\healthbar.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\healthbar.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\healthbar.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\healthbar2.xnb" target="content\Content\bin\DesktopGL\Content\healthbar2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\healthbar2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\healthbar2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Hit_Hurt14.xnb" target="content\Content\bin\DesktopGL\Content\Hit_Hurt14.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Hit_Hurt14.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Hit_Hurt14.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\hoveredbox.xnb" target="content\Content\bin\DesktopGL\Content\hoveredbox.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\hoveredbox.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\hoveredbox.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\hoveredPositive.xnb" target="content\Content\bin\DesktopGL\Content\hoveredPositive.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\hoveredPositive.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\hoveredPositive.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Idle.xnb" target="content\Content\bin\DesktopGL\Content\Idle.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Idle.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Idle.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Menu Music.xnb" target="content\Content\bin\DesktopGL\Content\Menu Music.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Menu Music.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Menu Music.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\MusicText.xnb" target="content\Content\bin\DesktopGL\Content\MusicText.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\MusicText.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\MusicText.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\new player bullets.xnb" target="content\Content\bin\DesktopGL\Content\new player bullets.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\new player bullets.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\new player bullets.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\next.xnb" target="content\Content\bin\DesktopGL\Content\next.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\next.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\next.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\nextHovered.xnb" target="content\Content\bin\DesktopGL\Content\nextHovered.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\nextHovered.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\nextHovered.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\OptionsScreen.xnb" target="content\Content\bin\DesktopGL\Content\OptionsScreen.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\OptionsScreen.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\OptionsScreen.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\OptionsScreen2.xnb" target="content\Content\bin\DesktopGL\Content\OptionsScreen2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\OptionsScreen2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\OptionsScreen2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\player Bullets.xnb" target="content\Content\bin\DesktopGL\Content\player Bullets.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\player Bullets.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\player Bullets.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Death.xnb" target="content\Content\bin\DesktopGL\Content\Player Death.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Death.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Player Death.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Shoot1.xnb" target="content\Content\bin\DesktopGL\Content\Player Shoot1.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Shoot1.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Player Shoot1.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Shoot2.xnb" target="content\Content\bin\DesktopGL\Content\Player Shoot2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Shoot2.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Player Shoot2.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Shoot3.xnb" target="content\Content\bin\DesktopGL\Content\Player Shoot3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Player Shoot3.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Player Shoot3.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Positive.xnb" target="content\Content\bin\DesktopGL\Content\Positive.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\Positive.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\Positive.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\RedStar.xnb" target="content\Content\bin\DesktopGL\Content\RedStar.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\RedStar.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\RedStar.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ship left.xnb" target="content\Content\bin\DesktopGL\Content\ship left.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ship left.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ship left.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ship right.xnb" target="content\Content\bin\DesktopGL\Content\ship right.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ship right.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ship right.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ship straight.xnb" target="content\Content\bin\DesktopGL\Content\ship straight.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\ship straight.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\ship straight.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\SpaceBackground.xnb" target="content\Content\bin\DesktopGL\Content\SpaceBackground.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\SpaceBackground.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\SpaceBackground.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\SpaceBackground4.xnb" target="content\Content\bin\DesktopGL\Content\SpaceBackground4.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\SpaceBackground4.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\SpaceBackground4.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\SpaceshipTest.xnb" target="content\Content\bin\DesktopGL\Content\SpaceshipTest.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\SpaceshipTest.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\SpaceshipTest.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\TitleScreen.xnb" target="content\Content\bin\DesktopGL\Content\TitleScreen.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\TitleScreen.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\TitleScreen.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\VictoryScreen.xnb" target="content\Content\bin\DesktopGL\Content\VictoryScreen.xnb" />
+    <file src="C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\Content\bin\DesktopGL\Content\VictoryScreen.xnb" target="contentFiles\any\netcoreapp3.1\Content\bin\DesktopGL\Content\VictoryScreen.xnb" />
+  </files>
+</package>

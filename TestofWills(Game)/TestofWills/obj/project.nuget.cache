@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w3bLGKG6S8JEdIBq7+gwMTjcv0xT6OAcN9K7T90t34bdtHIqOVLegdYXvYfgLpUb5bqDFhH68T6Mw62mPHe3wA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\William Tallarico\\Documents\\REPOS\\ForceOfWills\\TestofWills\\TestofWills\\TestofWills.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William Tallarico\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\William Tallarico\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}

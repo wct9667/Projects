@@ -1,0 +1,218 @@
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Arial12.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Arial30.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Arrow.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\black2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\BlueTiltRight.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boosted Music.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss animation.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss bullets1.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss bullets2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss bullets3.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Death.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Hit.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Shoot1.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Shoot2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Shoot3.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Button Click.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonExitHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonExitNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPauseHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPauseNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPlayHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPlayNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonOptionsHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonOptionsNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonReplayHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonReplayNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonStartHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonStartNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\checkbox.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\emptybox.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\enemy.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Game Over.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Game Win.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\GameOver.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Gameplay Music.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\GameText.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\GodModeText.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Grey rectangle.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\healthbar2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Hit_Hurt14.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\hoveredbox.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\hoveredPositive.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Idle.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Menu Music.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\MusicText.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\new player bullets.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\next.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\nextHovered.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\OptionsScreen.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\OptionsScreen2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\player Bullets.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Death.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Shoot1.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Shoot2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Shoot3.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Positive.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ship left.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ship right.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ship straight.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\SpaceBackground.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\SpaceshipTest.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\TitleScreen.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\VictoryScreen.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.exe
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.deps.json
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.runtimeconfig.json
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.runtimeconfig.dev.json
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.pdb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.AssemblyInfoInputs.cache
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.AssemblyInfo.cs
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.CoreCompileInputs.cache
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.CopyComplete
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.dll
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.pdb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.genruntimeconfig.cache
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\background2.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss2Test.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss_2_spritesheet.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\RedStar.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Background3.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\SpaceBackground4.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\black_hole.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\black_hole_horizontal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonCreditsHover.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonCreditsNormal.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.AssemblyReference.cache
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\health_dark.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\lightning_dark.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Medipack.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\missile_dark.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\missile_launcher_A.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\unknown.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\powerUpText.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\creditsScreen.xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\greenbar (3).xnb
+C:\Users\William Tallarico\Documents\IGME 106\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\healthbar.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.pdb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss2Test.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\greenbar (3).xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Arial12.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Arial30.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Arrow.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\background2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Background3.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\black2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\black_hole.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\black_hole_horizontal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\BlueTiltRight.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boosted Music.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss animation.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss bullets1.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss bullets2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss bullets3.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Death.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Hit.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Shoot1.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Shoot2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Boss Shoot3.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\boss_2_spritesheet.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Button Click.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonCreditsHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonCreditsNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonExitHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonExitNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPauseHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPauseNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPlayHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonMenuPlayNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonOptionsHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonOptionsNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonReplayHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonReplayNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonStartHover.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ButtonStartNormal.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\checkbox.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\creditsScreen.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\emptybox.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\enemy.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Game Over.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Game Win.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\GameOver.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Gameplay Music.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\GameText.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\GodModeText.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Grey rectangle.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\healthbar.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\healthbar2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\health_dark.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Hit_Hurt14.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\hoveredbox.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\hoveredPositive.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Idle.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\lightning_dark.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Medipack.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Menu Music.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\missile_dark.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\missile_launcher_A.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\MusicText.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\new player bullets.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\next.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\nextHovered.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\OptionsScreen.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\OptionsScreen2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\player Bullets.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Death.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Shoot1.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Shoot2.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Player Shoot3.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\Positive.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\powerUpText.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\RedStar.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ship left.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ship right.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\ship straight.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\SpaceBackground.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\SpaceBackground4.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\SpaceshipTest.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\TitleScreen.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\unknown.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\Content\VictoryScreen.xnb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.exe
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.deps.json
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.runtimeconfig.json
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.runtimeconfig.dev.json
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\TestofWills.pdb
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.AssemblyReference.cache
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.AssemblyInfoInputs.cache
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.AssemblyInfo.cs
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.CoreCompileInputs.cache
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.CopyComplete
+C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.genruntimeconfig.cache

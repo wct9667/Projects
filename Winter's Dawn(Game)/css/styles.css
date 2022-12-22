@@ -1,0 +1,33 @@
+
+canvas
+{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 60%;
+    border: solid gray 10px;
+}
+
+#content{
+   padding-Left: 10%;
+   padding-right: 10%;
+}
+body {
+/*background-image: url("../images/Sunset/expanded.png");*/
+background-color: lightgray;
+display: grid;
+}
+
+ul{
+    list-style:  none;
+}
+section, h1{
+    margin: 0, auto;
+}
+p{
+   max-width:  70vh;
+}

@@ -1,0 +1,11 @@
+ProjectileData[0] = default player projectile: Travels in straight line upward
+ProjectileData[1] = default boss projectile: Travels in a straight line downward
+
+Boss Spread attack: 5 shot spread in front of the boss
+ProjectileData[2] = Part of boss spread attack: Travels 45" to the right
+ProjectileData[3] = Part of boss spread attack: Travels 45" to the left
+ProjectileData[4] = Part of boss spread attack: Travels 22.5" to the right
+ProjectileData[5] = Part of boss spread attack: Travels 22.5" to the left
+ProjectileData[6] = Part of boss spead attack: same as ProjectileData[1]. Straight down attack (slow)
+ProjectileData[7] = a very slow attack, both in x and direction, very similar to 6, but slower
+

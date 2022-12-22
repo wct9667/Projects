@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html {scroll-behavior: smooth;}
+h1,h2,h3,#table,p{
+    font-family: Verdana, Tahoma, sans-serif
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(37, 31, 31);
+}
+#wrapper{
+    scroll-margin-top: 4rem;
+    margin-top:2rem;
+    display: grid;
+    grid-template-areas:  "sidetop"
+                        "introduction"
+                         "smallboxes";
+grid-template-rows: .74fr 1fr 2450px; 
+}
+@media screen and (min-width: 1000px) {
+    #wrapper{
+        margin-top:2rem;
+        display: grid;
+        grid-template-areas: "introduction sidetop"
+                             "smallboxes smallboxes";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+  }
+
+
+.side{
+    background-color: darkgray;
+    padding:25px;
+}
+#toprightcorner{
+    grid-area: sidetop;
+    background-color: darkgray;
+    border: 10px solid lightgrey;
+}
+#toprightcorner h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 10px;
+}
+#toprightcorner h2{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+#introduction{
+    grid-area: introduction;  
+    border:10px solid lightgray;  
+    border-right: 0px solid lightgray;
+}
+#introduction img{
+    float:right;
+    padding:1px;
+    shape-outside: polygon(1% 100%, 1% 86%, 12% 80%, 21% 77%, 31% 72%, 36% 67%, 33% 59%, 31% 52%, 25% 42%, 25% 33%, 27% 19%, 35% 7%, 41% 3%, 49% 1%, 54% 2%, 59% 3%, 68% 7%, 71% 11%, 75% 18%, 76% 26%, 76% 33%, 77% 39%, 74% 46%, 73% 58%, 70% 66%, 68% 72%, 79% 75%, 92% 81%, 100% 88%, 99% 99%);
+}
+
+#introduction h2{
+   font-size: 2rem;
+   font-weight: bold;
+}
+#introduction p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 110%;
+ }
+
+#sidebar{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color: grey;
+    border: darkgray solid 5px;
+    opacity: .75;
+}
+#table{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#table li{
+width:25%;
+
+}
+
+#table a{
+
+    transition: transform 0.1s ease-in, background-color 0.5s linear;;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+#table a:hover {
+    transform:scale(1.05);
+	background: black;
+	color: yellow;
+}
+
+
+
+/*Projects*/
+
+
+#boxes{
+    scroll-margin-top: 4rem;
+    grid-area: smallboxes;
+    display: grid;
+    grid-template-areas: "topleft"
+                        "topright"
+                        "bottomleft"  
+                        "bottomright";
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    grid-template-rows: 620px 620px 620px 620px;
+    padding: 20px;
+}  
+.FOWGAME{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: darkgray solid 5px;
+    transform: translateY(-20%);
+    transform: scale(1.1);
+}
+
+
+@media screen and (min-width: 1000px) {
+    #boxes{
+        grid-area: smallboxes;
+        display: grid;
+        grid-template-areas: "topleft topright"
+                            "bottomleft bottomright";
+    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:600px 600px;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;  
+        margin-bottom: 5%;    
+    } 
+    .FOWGAME{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: darkgray solid 5px;
+        max-width: 100%;
+        max-height: 100%;
+        transform: translateY(-20%);
+        transform: scale(1.5);
+    }
+    
+
+
+}
+
+
+/*project Boxes*/
+.box{
+    border:5px lightgray solid;
+    height: 600px;
+    background-size: cover;
+}
+
+.box p{
+    background-color: lightgrey;
+    opacity: .9;
+    margin: 9%;
+    margin-top: 5%;
+    padding: 15px;
+    line-height:20px;
+}
+
+
+#topright{
+    grid-area: topright;
+    background-color: gray;
+}
+
+
+#topLeft{
+    grid-area: topleft;
+    background-color: gray;
+}
+
+#BottomRight{
+    grid-area:bottomright;
+    background-color: grey;
+}
+
+
+#BottomLeft{
+    grid-area: bottomleft;
+    background-color: grey;
+}
+
+
+/*Project Titles*/
+
+.topLeftTitle h2{
+    padding-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#BottomLeft .topLeftTitle{
+    background-color: rgba(22,132,130,255);
+    border-bottom: 5px solid lightgray;
+}
+#topLeft .topLeftTitle{
+    background-color:rgba(131,50,125,255);
+    border-bottom: 5px solid lightgray;
+}
+#BottomRight .topLeftTitle{
+    background-color: rgba(228,76,149,255);
+    border-bottom: 5px solid lightgray;
+}
+#topright .topLeftTitle{
+    background-color: orange;
+    border-bottom: 5px solid lightgray;
+    padding-bottom: 15px;
+}
+
+
+#contact{
+    /*height: 130px;*/
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border: 5px solid darkgrey;
+}
+#contact h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 1%;
+}
+#contact #links{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    height: 125px;
+}
+#contact p{
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1000px){
+    #contact{
+        /*height: 130px;*/
+        text-align: center;
+        color: white;
+        background-color: grey;
+        border: 5px solid darkgrey;
+    }
+    #contact h2{
+        font-size: 4rem;
+        margin-top: 20px;
+        margin-bottom: 1%;
+    }
+    #contact #links{
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        height: 125px;
+    }
+    #contact p{
+        font-size: 1.5rem;
+    }
+}
+
+/*Link*/
+a:link {
+    color: purple;
+  }
+  
+
+  a:visited {
+    color: yellow;
+  }
+  
+
+  a:hover {
+    color: pink;
+  }
+  
+
+  a:active {
+    color: blue;
+  }
+  a:focus{
+    color: yellow;
+  }

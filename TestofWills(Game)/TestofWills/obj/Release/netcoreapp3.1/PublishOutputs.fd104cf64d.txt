@@ -1,0 +1,99 @@
+C:\Users\William Tallarico\Documents\Temp stuff\TestofWills.exe
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Arial12.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Arial30.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Arrow.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/background2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Background3.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/black2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/black_hole.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/black_hole_horizontal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/BlueTiltRight.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boosted Music.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/boss animation.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/boss bullets1.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/boss bullets2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/boss bullets3.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boss Death.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boss Hit.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boss Shoot1.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boss Shoot2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boss Shoot3.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Boss2Test.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/boss_2_spritesheet.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Button Click.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonCreditsHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonCreditsNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonExitHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonExitNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonMenuHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonMenuNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonMenuPauseHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonMenuPauseNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonMenuPlayHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonMenuPlayNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonOptionsHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonOptionsNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonReplayHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonReplayNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonStartHover.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ButtonStartNormal.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/checkbox.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/creditsScreen.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/emptybox.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/enemy.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Game Over.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Game Win.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/GameOver.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Gameplay Music.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/GameText.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/GodModeText.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/greenbar (3).xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Grey rectangle.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/healthbar.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/healthbar2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/health_dark.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Hit_Hurt14.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/hoveredbox.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/hoveredPositive.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Idle.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/lightning_dark.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Medipack.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Menu Music.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/missile_dark.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/missile_launcher_A.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/MusicText.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/new player bullets.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/next.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/nextHovered.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/OptionsScreen.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/OptionsScreen2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/player Bullets.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Player Death.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Player Shoot1.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Player Shoot2.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Player Shoot3.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/Positive.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/powerUpText.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/RedStar.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ship left.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ship right.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/ship straight.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/SpaceBackground.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/SpaceBackground4.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/SpaceshipTest.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/TitleScreen.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/unknown.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\Content/VictoryScreen.xnb
+C:\Users\William Tallarico\Documents\Temp stuff\TestofWills.dll
+C:\Users\William Tallarico\Documents\Temp stuff\TestofWills.deps.json
+C:\Users\William Tallarico\Documents\Temp stuff\TestofWills.runtimeconfig.json
+C:\Users\William Tallarico\Documents\Temp stuff\TestofWills.pdb
+C:\Users\William Tallarico\Documents\Temp stuff\MonoGame.Framework.dll
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\osx\native\libopenal.1.dylib
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\win-x64\native\SDL2.dll
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\win-x64\native\soft_oal.dll
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\win-x86\native\SDL2.dll
+C:\Users\William Tallarico\Documents\Temp stuff\runtimes\win-x86\native\soft_oal.dll
