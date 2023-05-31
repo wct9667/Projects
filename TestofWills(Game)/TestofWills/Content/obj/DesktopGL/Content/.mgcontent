@@ -4,89 +4,89 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/healthbar.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/_Ship_01_Blue_Tilt_Right.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Arial12.spritefont</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Arial30.spritefont</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Arrow.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/background2.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Background3.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/black_hole.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/black_hole_horizontal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/black2.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Boosted Music.mp3</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/boss animation.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/boss bullets1.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/boss bullets2.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/boss bullets3.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Boss Death.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Boss Hit.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Boss Shoot1.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Boss Shoot2.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Boss Shoot3.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/boss_2_spritesheet.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Button Click.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonCreditsHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonCreditsNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonExitHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonExitNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonMenuHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonMenuNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonMenuPauseHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonMenuPauseNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonMenuPlayHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonMenuPlayNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonOptionsHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonOptionsNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonReplayHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonReplayNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonStartHover.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ButtonStartNormal.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/checkbox.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/creditsScreen.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/emptybox.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/enemy.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Game Over.mp3</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Game Win.mp3</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/GameOver.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Gameplay Music.mp3</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/GameText.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/GodModeText.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Grey rectangle.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/health_dark.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/healthbar2.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Hit_Hurt14.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/hoveredbox.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/hoveredPositive.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Idle.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/lightning_dark.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Medipack.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Menu Music.mp3</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/missile_dark.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/missile_launcher_A.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/MusicText.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/new player bullets.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/next.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/nextHovered.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/OptionsScreen.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/OptionsScreen2.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/player Bullets.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Player Death.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Player Shoot1.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Player Shoot2.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Player Shoot3.wav</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/Positive.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/powerUpText.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/RedStar.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ship left.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ship right.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/ship straight.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/SpaceBackground.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/SpaceBackground4.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/SpaceshipTest.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/TitleScreen.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/unknown.png</File>
-    <File>C:/Users/William Tallarico/Documents/REPOS/ForceOfWills/TestofWills/TestofWills/Content/VictoryScreen.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/healthbar.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/_Ship_01_Blue_Tilt_Right.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Arial12.spritefont</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Arial30.spritefont</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Arrow.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/background2.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Background3.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/black_hole.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/black_hole_horizontal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/black2.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Boosted Music.mp3</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/boss animation.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/boss bullets1.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/boss bullets2.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/boss bullets3.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Boss Death.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Boss Hit.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Boss Shoot1.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Boss Shoot2.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Boss Shoot3.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/boss_2_spritesheet.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Button Click.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonCreditsHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonCreditsNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonExitHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonExitNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonMenuHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonMenuNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonMenuPauseHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonMenuPauseNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonMenuPlayHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonMenuPlayNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonOptionsHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonOptionsNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonReplayHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonReplayNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonStartHover.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ButtonStartNormal.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/checkbox.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/creditsScreen.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/emptybox.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/enemy.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Game Over.mp3</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Game Win.mp3</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/GameOver.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Gameplay Music.mp3</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/GameText.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/GodModeText.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Grey rectangle.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/health_dark.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/healthbar2.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Hit_Hurt14.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/hoveredbox.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/hoveredPositive.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Idle.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/lightning_dark.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Medipack.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Menu Music.mp3</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/missile_dark.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/missile_launcher_A.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/MusicText.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/new player bullets.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/next.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/nextHovered.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/OptionsScreen.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/OptionsScreen2.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/player Bullets.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Player Death.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Player Shoot1.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Player Shoot2.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Player Shoot3.wav</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/Positive.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/powerUpText.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/RedStar.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ship left.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ship right.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/ship straight.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/SpaceBackground.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/SpaceBackground4.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/SpaceshipTest.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/TitleScreen.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/unknown.png</File>
+    <File>C:/Users/William Tallarico/Documents/REPOS/Projects/TestofWills(Game)/TestofWills/Content/VictoryScreen.png</File>
   </SourceFiles>
   <DestFiles>
     <File>healthbar.png</File>

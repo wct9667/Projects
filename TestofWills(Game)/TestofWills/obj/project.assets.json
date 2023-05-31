@@ -179,11 +179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William Tallarico\\Documents\\REPOS\\ForceOfWills\\TestofWills\\TestofWills\\TestofWills.csproj",
+      "projectUniqueName": "C:\\Users\\William Tallarico\\Documents\\REPOS\\Projects\\TestofWills(Game)\\TestofWills\\TestofWills.csproj",
       "projectName": "TestofWills",
-      "projectPath": "C:\\Users\\William Tallarico\\Documents\\REPOS\\ForceOfWills\\TestofWills\\TestofWills\\TestofWills.csproj",
+      "projectPath": "C:\\Users\\William Tallarico\\Documents\\REPOS\\Projects\\TestofWills(Game)\\TestofWills\\TestofWills.csproj",
       "packagesPath": "C:\\Users\\William Tallarico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William Tallarico\\Documents\\REPOS\\ForceOfWills\\TestofWills\\TestofWills\\obj\\",
+      "outputPath": "C:\\Users\\William Tallarico\\Documents\\REPOS\\Projects\\TestofWills(Game)\\TestofWills\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\William Tallarico\\AppData\\Roaming\\NuGet\\NuGet.Config",

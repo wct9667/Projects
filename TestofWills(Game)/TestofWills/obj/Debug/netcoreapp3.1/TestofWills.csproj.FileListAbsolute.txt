@@ -216,3 +216,5 @@ C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\
 C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.CoreCompileInputs.cache
 C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.csproj.CopyComplete
 C:\Users\William Tallarico\Documents\REPOS\ForceOfWills\TestofWills\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.genruntimeconfig.cache
+C:\Users\William Tallarico\Documents\REPOS\Projects\TestofWills(Game)\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.dll
+C:\Users\William Tallarico\Documents\REPOS\Projects\TestofWills(Game)\TestofWills\obj\Debug\netcoreapp3.1\TestofWills.pdb
