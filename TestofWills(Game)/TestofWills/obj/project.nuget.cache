@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+vy4wajoZUfbKBEthMJTpOt7wc9Mdn78QRdUjreS3FkJDgrtnwERtt0IVcPZHgX0XBAm84xh5AaWUrM8LvAuBQ==",
+  "dgSpecHash": "HM6GowXMBFLabYNVtSBAZ74ZAJtl43W5t/+kIl5RIA0IJup7Z2W7foWTPb0REiOro95GFV/JePP3yN37tYGecA==",
   "success": true,
   "projectFilePath": "C:\\Users\\William Tallarico\\Documents\\REPOS\\Projects\\TestofWills(Game)\\TestofWills\\TestofWills.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\William Tallarico\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\William Tallarico\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+    "C:\\Users\\William Tallarico\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\William Tallarico\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
