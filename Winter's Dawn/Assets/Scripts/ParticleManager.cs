@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class ParticleManager : MonoBehaviour
 {
@@ -37,12 +35,6 @@ public class ParticleManager : MonoBehaviour
 	        particles.Add(temp);
         }
 
-    }
-
-    private void OnCollisionExit(Collision other)
-    {
-        GameObject g = other.gameObject;
-        
     }
 
     // Update is called once per frame
