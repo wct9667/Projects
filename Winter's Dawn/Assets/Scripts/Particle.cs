@@ -10,14 +10,7 @@ public class Particle : MonoBehaviour
 
     private float time;
 
-    [SerializeField]
-    private float xForce;
-    
-    [SerializeField]
-    private float yForce;
-
     private float windFactor = 1;
-
     
     private Transform spawnZone;
 
@@ -63,10 +56,7 @@ public class Particle : MonoBehaviour
 
         newPos.x += xSpeed * updateTime;
         newPos.y += ySpeed * updateTime;
-
-        //newPos.x += xForce;
-        //newPos.y += yForce;
-
+        
         transform.position = newPos;
     }
 

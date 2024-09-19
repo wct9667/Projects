@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +9,9 @@ public class ParticleManager : MonoBehaviour
 
     [SerializeField] private Collider spawnArea;
     private Bounds bounds;
+
+    [SerializeField] private float spawnStartZ = .1f;
+    [SerializeField] private float spawnDepth = 4;
 
     private List<GameObject> particles;
     [SerializeField] private GameObject particle;
@@ -25,8 +27,10 @@ public class ParticleManager : MonoBehaviour
         {
             float offsetX = Random.Range(-bounds.extents.x, bounds.extents.x);
             float offsetY = Random.Range(-bounds.extents.y, bounds.extents.y);
+            float offsetZ = Random.Range(spawnStartZ, spawnDepth);
+
             GameObject temp = Instantiate(particle);
-            temp.transform.position = new Vector3(offsetX, offsetY, -1);
+            temp.transform.position = new Vector3(offsetX, offsetY, offsetZ);
 	        particles.Add(temp);
         }
 
@@ -41,7 +45,7 @@ public class ParticleManager : MonoBehaviour
             //wrap around the screen
             if (newPos.x > bounds.extents.x)
             {
-                newPos.x = 0;
+                newPos.x = -bounds.extents.x;
             }
             else if (newPos.x < -bounds.extents.x)
             {
@@ -51,6 +55,7 @@ public class ParticleManager : MonoBehaviour
             if (newPos.y < -bounds.extents.y || newPos.y > bounds.extents.y)
             {
                 newPos.y = bounds.extents.y;
+                newPos.z = Random.Range(spawnStartZ, spawnDepth);
             }
 
             p.transform.position = newPos;
