@@ -22,6 +22,9 @@ public class Star : MonoBehaviour
     private Renderer starRenderer;
     private MaterialPropertyBlock propertyBlock;
 
+    private GameObject constellation;
+    
+
     void Start()
     {
       ApplyMaterialPropertyBlock();
@@ -135,5 +138,22 @@ public class Star : MonoBehaviour
     private float SetSize(short magnitude) {
       // Linear isn't factually accurate, but the effect is sufficient.
       return 1 - Mathf.InverseLerp(-146, 796, magnitude);
+    }
+
+    public void SetConstellation(GameObject constellation)
+    {
+      this.constellation = constellation;
+      constellation.SetActive(false);
+    }
+
+    public void ActivateConstellation()
+    {
+      if (!constellation) return;
+      constellation.SetActive(true);
+    }
+    public void DeactivateConstellation()
+    {
+      if (!constellation) return;
+      constellation.SetActive(false);
     }
 }
