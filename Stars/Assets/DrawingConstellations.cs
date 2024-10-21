@@ -21,7 +21,7 @@ public class DrawingConstellations : MonoBehaviour
     //allows a raycast to hit a star and show its related constellations
     public void EnableRayCastNormalConstellations()
     {
-        constellationsEnabled = !constellationsDrawingEnabled;
+        constellationsEnabled = !constellationsEnabled;
     }
 
     void Update()
@@ -45,7 +45,11 @@ public class DrawingConstellations : MonoBehaviour
             Debug.Log("No collision with 'Star' layer detected.");
             Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.red);
         }
-        
+    }
+    
+    public void Zoom(float increment)
+    {
+        camera.fieldOfView = Mathf.Clamp(camera.fieldOfView - increment, 20f, 100f);
     }
 
 }
