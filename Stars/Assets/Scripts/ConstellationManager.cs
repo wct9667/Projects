@@ -89,7 +89,6 @@ public class ConstellationManager : MonoBehaviour
       CreateConstellation(i);
       constellationVisible[i].SetActive(false);
     }
-    
   }
 
   //enables constellations

@@ -516,7 +516,7 @@ MonoBehaviour:
   doubleTapEventChannelSO: {fileID: 11400000, guid: e508191bb95b2a047a2c59a64a873035,
     type: 2}
   holdEventChannelSO: {fileID: 11400000, guid: e508191bb95b2a047a2c59a64a873035, type: 2}
-  zoomEventChannelSO: {fileID: 0}
+  zoomEventChannelSO: {fileID: 11400000, guid: 91c343faeb1ec4741882bd7bee4eb587, type: 2}
 --- !u!4 &558621141
 Transform:
   m_ObjectHideFlags: 0

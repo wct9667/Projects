@@ -26,19 +26,19 @@ public class DrawingConstellations : MonoBehaviour
 
     void Update()
     {
-        // Check if the left mouse button is clicked
-        if (!constellationsEnabled) return;
+        if (!constellationsEnabled && !constellationsDrawingEnabled) return;
 
         // Create a ray from the camera pointing forward
         Ray ray = new Ray(camera.transform.position, camera.transform.forward);
 
         if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, layer))
         {
-            // If it hits, log the name of the object
             Debug.Log("Hit object: " + hit.collider.name);
             Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.green);
             Star star = hit.collider.gameObject.GetComponent<Star>();
             star.ActivateConstellation();
+            //add the star to a new constellation with the constellation manager
+
         }
         else
         {
