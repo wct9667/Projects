@@ -12,6 +12,7 @@ public class Star : MonoBehaviour
     public short magnitude;
     public float raProperMotion;
     public float decProperMotion;
+    private bool hasScaled;
 
     public float size;
 
@@ -23,6 +24,11 @@ public class Star : MonoBehaviour
     private MaterialPropertyBlock propertyBlock;
 
     private GameObject constellation;
+    
+    [Header("Scale Properties")]
+    [SerializeField] private float scaleDuration = 0.5f;
+    [SerializeField] private float targetScaleMultiplier = 1.5f;
+    private Coroutine scaleCoroutine = null;
     
 
     void Start()
@@ -140,6 +146,58 @@ public class Star : MonoBehaviour
       return 1 - Mathf.InverseLerp(-146, 796, magnitude);
     }
 
+    public void SetScale()
+    {
+      if (hasScaled) return;
+
+      hasScaled = true;
+      if (scaleCoroutine != null)
+      {
+        StopCoroutine(scaleCoroutine);
+      }
+
+      // Start the scale animation
+      scaleCoroutine = StartCoroutine(Scale());
+    }
+
+    
+    private IEnumerator Scale()
+    {
+      Vector3 originalScale = transform.localScale;
+      Vector3 targetScale = originalScale * targetScaleMultiplier;
+
+      // Animate scale increase
+      float elapsedTime = 0f;
+      while (elapsedTime < scaleDuration)
+      {
+        transform.localScale = Vector3.Lerp(originalScale, targetScale, elapsedTime / scaleDuration);
+        elapsedTime += Time.deltaTime;
+        yield return null;
+      }
+
+      // Ensure target scale is reached
+      transform.localScale = targetScale;
+
+      // Wait for a short moment at the larger size
+      yield return new WaitForSeconds(0.2f);
+
+      // Animate scale decrease back to the original
+      elapsedTime = 0f;
+      while (elapsedTime < scaleDuration)
+      {
+        transform.localScale = Vector3.Lerp(targetScale, originalScale, elapsedTime / scaleDuration);
+        elapsedTime += Time.deltaTime;
+        yield return null;
+      }
+
+      // Ensure original scale is restored
+      transform.localScale = originalScale;
+
+      // Reset the `hasScaled` flag if you want to allow scaling again
+      hasScaled = false;
+    }
+    
+    
     public void SetConstellation(GameObject constellation)
     {
       this.constellation = constellation;

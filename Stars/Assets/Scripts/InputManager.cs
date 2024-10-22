@@ -19,7 +19,7 @@ public class InputManager : MonoBehaviour
     [SerializeField] private FloatEventChannelSO zoomEventChannelSO;
     private float previousDistance;
     private float currentDistance;
-    private float zoomSpeed = 0.1f;
+    [SerializeField] private float zoomSpeed = 0.1f;
     private bool isZooming = false;
 
 
@@ -27,6 +27,7 @@ public class InputManager : MonoBehaviour
     {
         DetectHold();
         CheckZoom();
+        DetectDoubleTap();
     }
 
     private void DetectDoubleTap()
@@ -70,6 +71,7 @@ public class InputManager : MonoBehaviour
             // Update the previous distance for the next frame
             previousDistance = currentDistance;
         }
+        else isZooming = false;
     }
 
     private void DetectHold()

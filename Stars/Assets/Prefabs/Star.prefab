@@ -108,6 +108,8 @@ MonoBehaviour:
   size: 0
   color: {r: 0, g: 0, b: 0, a: 0}
   position: {x: 0, y: 0, z: 0}
+  scaleDuration: 0.5
+  targetScaleMultiplier: 10.45
 --- !u!65 &832084733194504444
 BoxCollider:
   m_ObjectHideFlags: 0

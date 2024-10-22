@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 
@@ -92,6 +91,19 @@ public class CalibrateStarField : MonoBehaviour
         // Apply the rotation to the entire starmap
         transform.rotation = finalRotation;
     }
+    
+    // Speed factor (e.g., 3600 to make 1 second equal to 1 hour of real time)
+    public float speedFactor = 3600f;
+
+    // Earth's rotation in degrees per hour (360 / 24)
+    private float earthRotationSpeedPerHour = 15f;
+
+    void Update()
+    {
+        // Speed up rotation by multiplying by speedFactor
+        float adjustedSpeed = earthRotationSpeedPerHour * speedFactor;
+        transform.Rotate(Vector3.up, adjustedSpeed * Time.deltaTime);
+    }
 
     private double CalculateLocalSiderealTime(DateTime utcNow, float userLongitude)
     {
@@ -153,4 +165,6 @@ public class CalibrateStarField : MonoBehaviour
 
         return GMST;
     }
+    
+    
 }
