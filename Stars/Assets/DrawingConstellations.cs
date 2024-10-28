@@ -10,7 +10,7 @@ public class DrawingConstellations : MonoBehaviour
     [SerializeField] private LayerMask layer;
     [SerializeField] private ConstellationManager _constellationManager;
 
-    private Camera camera;
+    private Camera mainCamera;
     private int currentIndex = -1;
     
     private bool constellationsDrawingEnabled;
@@ -18,7 +18,7 @@ public class DrawingConstellations : MonoBehaviour
     
     private void Start()
     {
-        camera = Camera.main;
+        mainCamera = Camera.main;
         currentIndex = _constellationManager.ConstellationNum - 1;
     }
     
@@ -43,7 +43,7 @@ public class DrawingConstellations : MonoBehaviour
         if (!constellationsEnabled && !constellationsDrawingEnabled) return;
         
         // Create a ray from the camera pointing forward
-        Ray ray = new Ray(camera.transform.position, camera.transform.forward);
+        Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
 
         if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, layer))
         {
@@ -70,6 +70,6 @@ public class DrawingConstellations : MonoBehaviour
     
     public void Zoom(float increment)
     {
-        camera.fieldOfView = Mathf.Clamp(camera.fieldOfView - increment, 20f, 100f);
+        mainCamera.fieldOfView = Mathf.Clamp(mainCamera.fieldOfView - increment, 20f, 100f);
     }
 }
