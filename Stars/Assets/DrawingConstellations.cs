@@ -9,6 +9,9 @@ public class DrawingConstellations : MonoBehaviour
     [SerializeField] private float maxDistance = 100f; // Maximum distance for the raycast
     [SerializeField] private LayerMask layer;
     [SerializeField] private ConstellationManager _constellationManager;
+    [SerializeField] private HapticFeedbackManager haptics;
+
+    private Star previousStar = null;
 
     private Camera mainCamera;
     private int currentIndex = -1;
@@ -51,12 +54,17 @@ public class DrawingConstellations : MonoBehaviour
             Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.green);
             Star star = hit.collider.gameObject.GetComponent<Star>();
             
-            
             //add the star to a new constellation with the constellation manager
             if (constellationsDrawingEnabled)
             {
-                _constellationManager.AddConstellation(currentIndex, (int)star.catalogNumber);
                 star.SetScale();
+                _constellationManager.AddConstellation(currentIndex, (int)star.catalogNumber);
+
+                if (star != previousStar)
+                {
+                    haptics.TriggerHaptic();
+                }
+                previousStar = star;
             }
 
             if(constellationsEnabled || constellationsDrawingEnabled) star.ActivateConstellation();
