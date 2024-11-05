@@ -35,14 +35,19 @@ public class PhoneCameraDisplay : MonoBehaviour
       backCam = new WebCamTexture(devices[i].name, Screen.width, Screen.height);
     }
 
-    if (backCam == null) {Debug.Log("no phone"); return;}
+    if (backCam == null) {Debug.Log("no phone");
+      background.texture = defaultBackground;
+      return;}
     
     backCam.Play();
     background.texture = backCam;
 
     camAvailable = true;
-    
+  }
 
+  public void ToggleCameraActive(bool toggle)
+  {
+    background.enabled = toggle;
   }
 
   private void Update()
