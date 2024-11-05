@@ -11,8 +11,11 @@ public class PhoneCameraDisplay : MonoBehaviour
   public RawImage background;
   public AspectRatioFitter fit;
 
+
+  private Camera cam; 
   private void Start()
   {
+    cam = Camera.main;
     //fallback background
     defaultBackground = background.texture;
     
@@ -48,6 +51,15 @@ public class PhoneCameraDisplay : MonoBehaviour
   public void ToggleCameraActive(bool toggle)
   {
     background.enabled = toggle;
+    Color camColor = cam.backgroundColor;
+    if (toggle)
+    {
+      cam.backgroundColor = new Color(camColor.r, camColor.b, camColor.b,
+        61/255f);
+      return;
+    }
+    cam.backgroundColor = new Color(camColor.r, camColor.b, camColor.b,
+      1);
   }
 
   private void Update()
