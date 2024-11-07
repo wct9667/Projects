@@ -59,7 +59,7 @@ public class PhoneCameraDisplay : MonoBehaviour
       return;
     }
     cam.backgroundColor = new Color(camColor.r, camColor.b, camColor.b,
-      1);
+      255f);
   }
 
   private void Update()
