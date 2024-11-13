@@ -212,6 +212,6 @@ public class Star : MonoBehaviour
     public void DeactivateConstellation()
     {
       if (!constellation) return;
-      constellation.SetActive(false);
+      constellation.GetComponent<Constellation>().Disable();
     }
 }

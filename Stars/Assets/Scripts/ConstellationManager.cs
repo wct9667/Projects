@@ -74,7 +74,6 @@ public class ConstellationManager : MonoBehaviour
     //make a new entry if index is above
     if (index >= constellations.Count)
     {
-      Debug.Log("New Entry");
       constellations.Add((new List<int>{}, new List<int>{}));
     }
 
@@ -142,10 +141,12 @@ public class ConstellationManager : MonoBehaviour
   {
     for (int i = 0; i < constellationVisible.Count; i++)
     {
-      constellationVisible[i].SetActive(false);
+      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
+      if(constellation) constellation.Disable();
     }
   }
 
+ 
   //creates a constellation (hardcoded)
   void CreateConstellation(int index) {
     List<int> constellation = constellations[index].Item1;
@@ -153,6 +154,8 @@ public class ConstellationManager : MonoBehaviour
     
     GameObject constellationHolder = new($"Constellation {index}");
     constellationHolder.transform.parent = transform;
+    if(!constellationHolder.GetComponent<Constellation>())
+      constellationHolder.AddComponent<Constellation>();
     
     if(constellationVisible.Count-1 == index) Destroy(constellationVisible[index].gameObject);
     constellationVisible[index] = constellationHolder;

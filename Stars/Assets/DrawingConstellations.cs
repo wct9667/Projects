@@ -67,7 +67,11 @@ public class DrawingConstellations : MonoBehaviour
                 previousStar = star;
             }
 
-            if(constellationsEnabled || constellationsDrawingEnabled) star.ActivateConstellation();
+            if (constellationsEnabled)
+            {
+                star.ActivateConstellation();
+                if(!constellationsDrawingEnabled) star.DeactivateConstellation();
+            }
         }
         else
         {
