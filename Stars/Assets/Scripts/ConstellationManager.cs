@@ -128,7 +128,7 @@ public class ConstellationManager : MonoBehaviour
   }
 
   //enables constellations
-  private void EnableConstellations()
+  public void EnableConstellations()
   {
     for (int i = 0; i < constellationVisible.Count; i++)
     {
@@ -143,6 +143,15 @@ public class ConstellationManager : MonoBehaviour
     {
       Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
       if(constellation) constellation.Disable();
+    }
+  }
+  
+  public void DisableConstellationsInstantly()
+  {
+    for (int i = 0; i < constellationVisible.Count; i++)
+    {
+      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
+      if(constellation) constellation.DisableInstant();
     }
   }
 

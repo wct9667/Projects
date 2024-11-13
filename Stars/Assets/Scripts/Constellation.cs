@@ -1,13 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Constellation : MonoBehaviour
 {
     private bool disable = false;
     float timeElapsed = 0f;
-    private bool randomSelected = false;
     private Vector3 startScale;
     public void Disable()
     {
@@ -24,11 +20,6 @@ public class Constellation : MonoBehaviour
         startScale = transform.localScale;
     }
 
-    private void OnEnable()
-    {
-        randomSelected = !randomSelected;
-    }
-
     private void FadeOutAndDisable()
     {
         if (!disable) return;
@@ -37,12 +28,10 @@ public class Constellation : MonoBehaviour
 
         if (timeElapsed < 4) return;
         // Fade out
-        if (timeElapsed < 8)
+        if (timeElapsed < 12)
         {
-            if(!randomSelected)
-                transform.localScale *= 1.05f;// + Time.deltaTime;
-            if(randomSelected)
-                transform.localScale *= .95f;// + Time.deltaTime;
+            transform.localScale *= .95f;// + Time.deltaTime;
+            
             return;
         }
 
@@ -50,6 +39,21 @@ public class Constellation : MonoBehaviour
         transform.localScale = startScale;
         disable = false;
         gameObject.SetActive(false);
+    }
+
+    public void DisableInstant()
+    {
+        timeElapsed = 0;
+        transform.localScale = startScale;
+        disable = false;
+        gameObject.SetActive(false);
+    }
+
+    private void OnDisable()
+    {
+        timeElapsed = 0;
+        transform.localScale = startScale;
+        disable = false;
     }
 }
 
