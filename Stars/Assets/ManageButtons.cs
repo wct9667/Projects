@@ -5,26 +5,26 @@ using UnityEngine;
 public class ManageButtons : MonoBehaviour
 {
 
-    [SerializeField] private GameObject enableAllContButton;
+    [SerializeField] private Canvas enableAllContButton;
 
-    [SerializeField] private GameObject disableAllConstButton;
+    [SerializeField] private Canvas disableAllConstButton;
     // Start is called before the first frame update
     void Start()
     {
-        disableAllConstButton.SetActive(false);
-        enableAllContButton.SetActive(true);
+        //disableAllConstButton.SetActive(false);
+        //enableAllContButton.SetActive(true);
     }
 
     public void OnEnableConst()
     {
-        disableAllConstButton.SetActive(true);
-        enableAllContButton.SetActive(false);
+        disableAllConstButton.enabled = true;
+        enableAllContButton.enabled = false;
     }
 
     public void OnDisableConst()
     {
-        disableAllConstButton.SetActive(false);
-        enableAllContButton.SetActive(true);
+        disableAllConstButton.enabled = false;
+        enableAllContButton.enabled = true;
     }
 
 
