@@ -5,6 +5,12 @@ public class Constellation : MonoBehaviour
     private bool disable = false;
     float timeElapsed = 0f;
     private Vector3 startScale;
+    private Vector3 target;
+
+    public Vector3 Target
+    {
+        set { target = value; }
+    }
     public void Disable()
     {
         disable = true;
@@ -19,6 +25,7 @@ public class Constellation : MonoBehaviour
     {
         startScale = transform.localScale;
     }
+    
 
     private void FadeOutAndDisable()
     {
@@ -27,10 +34,13 @@ public class Constellation : MonoBehaviour
 
 
         if (timeElapsed < 4) return;
-        // Fade out
+        // Fall
         if (timeElapsed < 12)
         {
-            transform.localScale *= .95f;// + Time.deltaTime;
+            if (transform.position != target)
+            {
+                transform.position = Vector3.Lerp(transform.position, target, 1 * Time.deltaTime);
+            }
             
             return;
         }

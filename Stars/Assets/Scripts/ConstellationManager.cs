@@ -14,7 +14,6 @@ public class ConstellationManager : MonoBehaviour
   [SerializeField] private VoidEventChannelSO drawConstellations;
   
   private List<Star> stars;
-  private List<MeshRenderer> starMeshRenderers;
   private Dictionary<int, GameObject> constellationVisible = new();
   private bool constEnabled = false;
 
@@ -27,7 +26,6 @@ public class ConstellationManager : MonoBehaviour
   {
     _starField = GetComponent<StarField>();
     stars = _starField.Stars;
-    starMeshRenderers = _starField.StarMeshRenderers;
     CreateConstellations();
   }
   
@@ -164,7 +162,7 @@ public class ConstellationManager : MonoBehaviour
     GameObject constellationHolder = new($"Constellation {index}");
     constellationHolder.transform.parent = transform;
     if(!constellationHolder.GetComponent<Constellation>())
-      constellationHolder.AddComponent<Constellation>();
+      constellationHolder.AddComponent<Constellation>().Target = Camera.main.transform.position;
     
     if(constellationVisible.Count-1 == index) Destroy(constellationVisible[index].gameObject);
     constellationVisible[index] = constellationHolder;
