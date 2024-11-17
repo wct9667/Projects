@@ -7,10 +7,6 @@ public class Constellation : MonoBehaviour
     private Vector3 startScale;
     private Vector3 target;
 
-    public Vector3 Target
-    {
-        set { target = value; }
-    }
     public void Disable()
     {
         disable = true;
@@ -24,6 +20,7 @@ public class Constellation : MonoBehaviour
     private void Start()
     {
         startScale = transform.localScale;
+        target = Camera.main.transform.position;
     }
     
 
@@ -39,7 +36,7 @@ public class Constellation : MonoBehaviour
         {
             if (transform.position != target)
             {
-                transform.position = Vector3.Lerp(transform.position, target, 1 * Time.deltaTime);
+                transform.position = target;
             }
             
             return;
@@ -59,11 +56,5 @@ public class Constellation : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    private void OnDisable()
-    {
-        timeElapsed = 0;
-        transform.localScale = startScale;
-        disable = false;
-    }
 }
 

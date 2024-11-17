@@ -164,8 +164,8 @@ public class ConstellationManager : MonoBehaviour
     
     GameObject constellationHolder = new($"Constellation {index}");
     constellationHolder.transform.parent = transform;
-    if(!constellationHolder.GetComponent<Constellation>())
-      constellationHolder.AddComponent<Constellation>().Target = Camera.main.transform.position;
+    if (!constellationHolder.GetComponent<Constellation>())
+      constellationHolder.AddComponent<Constellation>();
     
     if(constellationVisible.Count-1 == index) Destroy(constellationVisible[index].gameObject);
     constellationVisible[index] = constellationHolder;
