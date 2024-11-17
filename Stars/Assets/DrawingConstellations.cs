@@ -69,9 +69,9 @@ public class DrawingConstellations : MonoBehaviour
 
             if (constellationsEnabled)
             {
-                if (star.ConstellationActive()) return;
-                star.ActivateConstellation();
-                if(!constellationsDrawingEnabled) star.DeactivateConstellation();
+                if (!star.ConstellationActive())
+                    star.ActivateConstellation();
+                //if(!constellationsDrawingEnabled) star.DeactivateConstellation();
             }
         }
         else

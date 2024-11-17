@@ -27,9 +27,9 @@ public class Constellation : MonoBehaviour
         timeElapsed += Time.deltaTime;
 
 
-        if (timeElapsed < 4) return;
+       
         // Fall
-        if (timeElapsed < 12)
+        if (timeElapsed < 2)
         {
             transform.localScale *=  .75f;
             
