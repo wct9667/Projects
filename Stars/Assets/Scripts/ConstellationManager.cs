@@ -10,9 +10,7 @@ public class ConstellationManager : MonoBehaviour
   [Header("Starfield Data")] 
   [SerializeField] private StarField _starField;
 
-  [Header("DrawConstellations")] 
-  [SerializeField] private VoidEventChannelSO drawConstellations;
-  
+
   private List<Star> stars;
   private Dictionary<int, GameObject> constellationVisible = new();
   private bool constEnabled = false;
@@ -140,6 +138,7 @@ public class ConstellationManager : MonoBehaviour
   {
     for (int i = 0; i < constellationVisible.Count; i++)
     {
+      if (!constellationVisible.ContainsKey(i)) continue;
       Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
       if(constellation) constellation.Disable();
     }
@@ -150,9 +149,9 @@ public class ConstellationManager : MonoBehaviour
     Debug.Log("Disabled All Constellations");
     for (int i = 0; i < constellationVisible.Count; i++)
     {
-      constellationVisible[i].SetActive(false);
-      //Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
-      //if(constellation) constellation.DisableInstant();
+      if (!constellationVisible.ContainsKey(i)) continue;
+      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
+      if(constellation) constellation.DisableInstant();
     }
   }
 

@@ -49,6 +49,12 @@ public class Star : MonoBehaviour
       // Apply the MaterialPropertyBlock to the renderer
       starRenderer.SetPropertyBlock(propertyBlock);
     }
+
+    public bool ConstellationActive()
+    {
+      if (!constellation) return false;
+      return constellation.activeSelf;
+    }
     /// <summary>
     /// Setup the Star Class
     /// </summary>

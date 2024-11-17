@@ -5,8 +5,6 @@ public class Constellation : MonoBehaviour
     private bool disable = false;
     float timeElapsed = 0f;
     private Vector3 startScale;
-    private Vector3 target;
-
     public void Disable()
     {
         disable = true;
@@ -20,7 +18,6 @@ public class Constellation : MonoBehaviour
     private void Start()
     {
         startScale = transform.localScale;
-        target = Camera.main.transform.position;
     }
     
 
@@ -34,10 +31,7 @@ public class Constellation : MonoBehaviour
         // Fall
         if (timeElapsed < 12)
         {
-            if (transform.position != target)
-            {
-                transform.position = target;
-            }
+            transform.localScale *=  .75f;
             
             return;
         }
