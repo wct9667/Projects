@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DrawingConstellations : MonoBehaviour
@@ -18,6 +15,11 @@ public class DrawingConstellations : MonoBehaviour
     
     private bool constellationsDrawingEnabled;
     private bool constellationsEnabled;
+
+    public bool ConstDraw()
+    {
+        return constellationsDrawingEnabled;
+    }
     
     private void Start()
     {
@@ -43,6 +45,7 @@ public class DrawingConstellations : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Current Index IS" + currentIndex);
         if (!constellationsEnabled && !constellationsDrawingEnabled) return;
         
         // Create a ray from the camera pointing forward
@@ -50,7 +53,6 @@ public class DrawingConstellations : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, layer))
         {
-            Debug.Log("Hit object: " + hit.collider.name);
             Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.green);
             Star star = hit.collider.gameObject.GetComponent<Star>();
             
@@ -76,7 +78,6 @@ public class DrawingConstellations : MonoBehaviour
         }
         else
         {
-            Debug.Log("No collision with 'Star' layer detected.");
             Debug.DrawRay(ray.origin, ray.direction * maxDistance, Color.red);
         }
     }

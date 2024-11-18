@@ -1,8 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 public class ConstellationManager : MonoBehaviour
@@ -13,7 +9,8 @@ public class ConstellationManager : MonoBehaviour
 
   private List<Star> stars;
   private Dictionary<int, GameObject> constellationVisible = new();
-  private bool constEnabled = false;
+
+  [SerializeField] private DrawingConstellations constDraw;
 
   public int ConstellationNum
   {
@@ -99,19 +96,6 @@ public class ConstellationManager : MonoBehaviour
     }
   }
 
-
-  //enables if disables and the inverse
-  public void EnableOrDisableConstellations()
-  {
-    if (!constEnabled)
-    {
-      EnableConstellations();
-      constEnabled = true;
-      return;
-    }
-    DisableConstellations();
-    constEnabled = false;
-  }
   
   //creates all the constellations from the list
   private void CreateConstellations()
@@ -129,7 +113,9 @@ public class ConstellationManager : MonoBehaviour
     Debug.Log("Enabled All Constellations");
     for (int i = 0; i < constellationVisible.Count; i++)
     {
-      constellationVisible[i].SetActive(true);
+      if (!constellationVisible.ContainsKey(i)) continue;
+      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
+      constellation.Enable();
     }
   }
   
@@ -139,33 +125,28 @@ public class ConstellationManager : MonoBehaviour
     for (int i = 0; i < constellationVisible.Count; i++)
     {
       if (!constellationVisible.ContainsKey(i)) continue;
+
+      if (i == constellationVisible.Count - 1 && constDraw.ConstDraw()) continue;
       Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
       if(constellation) constellation.Disable();
     }
   }
   
-  public void DisableConstellationsInstantly()
-  {
-    Debug.Log("Disabled All Constellations");
-    for (int i = 0; i < constellationVisible.Count; i++)
-    {
-      if (!constellationVisible.ContainsKey(i)) continue;
-      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
-      if(constellation) constellation.DisableInstant();
-    }
-  }
-
- 
+  
   //creates a constellation (hardcoded)
   void CreateConstellation(int index) {
     List<int> constellation = constellations[index].Item1;
     List<int> lines = constellations[index].Item2;
-    
+
+   /* GameObject gameObjectC = GameObject.Find($"Constellation {index}");
+    if(gameObjectC)
+      Destroy(gameObjectC);*/
     GameObject constellationHolder = new($"Constellation {index}");
     constellationHolder.transform.parent = transform;
     if (!constellationHolder.GetComponent<Constellation>())
       constellationHolder.AddComponent<Constellation>();
     
+    Debug.Log("Index" + index + "Count: " + (constellationVisible.Count-1));
     if(constellationVisible.Count-1 == index) Destroy(constellationVisible[index].gameObject);
     constellationVisible[index] = constellationHolder;
     
