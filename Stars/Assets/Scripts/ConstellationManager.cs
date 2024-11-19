@@ -8,7 +8,7 @@ public class ConstellationManager : MonoBehaviour
 
 
   private List<Star> stars;
-  private Dictionary<int, GameObject> constellationVisible = new();
+  private Dictionary<string, GameObject> constellationVisible = new();
 
   [SerializeField] private DrawingConstellations constDraw;
 
@@ -103,7 +103,7 @@ public class ConstellationManager : MonoBehaviour
     for (int i = 0; i < constellations.Count; i++)
     {
       CreateConstellation(i);
-      constellationVisible[i].SetActive(false);
+      DisableConstellations();
     }
   }
 
@@ -111,24 +111,22 @@ public class ConstellationManager : MonoBehaviour
   public void EnableConstellations()
   {
     Debug.Log("Enabled All Constellations");
-    for (int i = 0; i < constellationVisible.Count; i++)
+    foreach(KeyValuePair<string, GameObject> keyValuePair in constellationVisible)
     {
-      if (!constellationVisible.ContainsKey(i)) continue;
-      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
-      constellation.Enable();
+      keyValuePair.Value.GetComponent<Constellation>().Enable();
     }
   }
   
   //disables constellations
   public void DisableConstellations()
-  {
-    for (int i = 0; i < constellationVisible.Count; i++)
+  { 
+    int count = 0;
+    int total = constellationVisible.Count;
+    foreach( KeyValuePair<string, GameObject> keyValuePair in constellationVisible)
     {
-      if (!constellationVisible.ContainsKey(i)) continue;
-
-      if (i == constellationVisible.Count - 1 && constDraw.ConstDraw()) continue;
-      Constellation constellation = constellationVisible[i].GetComponent<Constellation>();
-      if(constellation) constellation.Disable();
+      count++;
+      if ( count == total && constDraw.ConstDraw()) continue;
+      keyValuePair.Value.GetComponent<Constellation>().Disable();
     }
   }
   
@@ -147,8 +145,9 @@ public class ConstellationManager : MonoBehaviour
       constellationHolder.AddComponent<Constellation>();
     
     Debug.Log("Index" + index + "Count: " + (constellationVisible.Count-1));
-    if(constellationVisible.Count-1 == index) Destroy(constellationVisible[index].gameObject);
-    constellationVisible[index] = constellationHolder;
+    
+    if(constellationVisible.ContainsKey($"Constellation {index}")) Destroy(constellationVisible[$"Constellation {index}"]);
+    constellationVisible[$"Constellation {index}"] = constellationHolder;
     
     
     // Change the colors of the stars
