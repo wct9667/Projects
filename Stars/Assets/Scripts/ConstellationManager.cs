@@ -63,7 +63,6 @@ public class ConstellationManager : MonoBehaviour
 
   public void AddConstellation(int index, int starNum)
   {
-   
     //make a new entry if index is above
     if (index >= constellations.Count)
     {

@@ -34,32 +34,14 @@ public class CalibrateStarField : MonoBehaviour
             float userLongitude = Input.location.lastData.longitude;
             
             calibrateEvent.RaiseEvent(new Vector2(userLatitude, userLongitude));
-
-
-            // Get current UTC time
-            DateTime utcNow = DateTime.UtcNow;
-
-            // Reference star's RA/Dec (Polaris) 
-            float referenceRA = 2.5303f; // Right Ascension of Polaris in hours
-            float referenceDec = 89.2641f;//(float)(referenceStar.declination * (180 / Math.PI)); //89.2641f; // Declination of Polaris in degrees
-            
-            // Calculate Local Sidereal Time (LST) for longitude of the user
-            double LST = CalculateLocalSiderealTime(utcNow, userLongitude);
-
-            // Convert RA/Dec to Altitude/Azimuth
-            Vector2 starAzAlt = CalculateStarAzimuthAltitude(referenceRA, referenceDec, userLatitude, LST);
-
-            // Get the phone's azimuth (compass heading)
-            float phoneAzimuth = Input.compass.trueHeading;
-
-            // Rotate the starmap to align the reference star
-            AlignStarField(starAzAlt, phoneAzimuth);
         }
     }
     
     
-    internal void CalibrateWithData(float userLatitude, float userLongitude)
+    public void CalibrateWithData(Vector2 data)
     {
+        float userLatitude = data[0];
+        float userLongitude = data[1];
         // Get current UTC time
         DateTime utcNow = DateTime.UtcNow;
 
