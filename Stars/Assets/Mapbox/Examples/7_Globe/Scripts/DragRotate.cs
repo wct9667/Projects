@@ -106,35 +106,6 @@ namespace Mapbox.Examples
                 _isTouchingMap = false;
             }
 
-            // Step 5: Handle pinch-to-zoom
-            if (Input.touchCount == 2)
-            {
-                // Get the positions of the first two touches
-                Touch touch1 = Input.GetTouch(0);
-                Touch touch2 = Input.GetTouch(1);
-
-                // Calculate the distance between the two touches in the previous and current frames
-                float previousDistance = (touch1.position - touch2.position).magnitude;
-                float currentDistance = (touch1.position - touch2.position).magnitude;
-
-                // Calculate the zoom difference based on the change in distance
-                float zoomDelta = currentDistance - previousDistance;
-
-                // Zoom the camera by modifying its field of view or position
-                ZoomCamera(zoomDelta);
-            }
-        }
-
-        // Step 6: Function to zoom the camera based on pinch gesture
-        private void ZoomCamera(float zoomDelta)
-        {
-            // Adjust the camera's field of view (FOV) for zoom effect
-            // Use negative zoomDelta for zooming out and positive for zooming in
-            _camera.fieldOfView = Mathf.Clamp(_camera.fieldOfView - zoomDelta * _zoomSpeed, _minZoom, _maxZoom);
-
-            // Alternatively, zoom the camera by changing its position
-            // Vector3 direction = (_camera.transform.position - _objectToRotate.position).normalized;
-            // _camera.transform.position += direction * zoomDelta * _zoomSpeed;
-        }
+         }
     }
 }

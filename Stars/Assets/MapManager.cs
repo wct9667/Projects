@@ -9,23 +9,17 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    [SerializeField] private AbstractMap map;
+  
     [SerializeField] private GameObject markerPrefab;
     [SerializeField] private SphereCollider collider;
+    [SerializeField] private Transform map;
     
     
 
     private GameObject marker;
     public void UpdateMap(Vector2 data)
     {
-        if (map)
-        {
-            map.Initialize(new Vector2d(0,0), 3);
-            Debug.Log(data[0] + ""+  data[1]);
-            //map.SetCenterLatitudeLongitude(new(data[0], data[1]));
-            AddMarkerAtLocation(data[0], data[1]);
-        }
-        
+        AddMarkerAtLocation(data[0], data[1]);
     }
     
 
