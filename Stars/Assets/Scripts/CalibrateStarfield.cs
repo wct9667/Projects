@@ -34,6 +34,8 @@ public class CalibrateStarField : MonoBehaviour
             float userLongitude = Input.location.lastData.longitude;
             
             calibrateEvent.RaiseEvent(new Vector2(userLatitude, userLongitude));
+            
+            CalibrateWithData(new Vector2(userLatitude, userLongitude));
         }
     }
     
