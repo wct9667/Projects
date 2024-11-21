@@ -45,6 +45,7 @@ public class DrawingConstellations : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Current Index IS" + currentIndex);
         if (!constellationsEnabled && !constellationsDrawingEnabled) return;
         
         // Create a ray from the camera pointing forward
