@@ -3,8 +3,7 @@ using Mapbox.Utils;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace Mapbox.Examples
-{
+
     public class DragRotate : MonoBehaviour
     {
         [SerializeField]
@@ -108,4 +107,4 @@ namespace Mapbox.Examples
 
          }
     }
-}
+
