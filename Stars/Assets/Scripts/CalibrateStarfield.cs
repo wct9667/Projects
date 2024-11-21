@@ -1,16 +1,12 @@
 using System.Collections;
 using UnityEngine;
 using System;
-using Mapbox.Unity.Map;
-using Mapbox.Utils;
-using UnityEngine.Android;
 
 
 public class CalibrateStarField : MonoBehaviour
 {
     [SerializeField] private Star referenceStar;
 
-    [SerializeField] private AbstractMap map;
 
     [SerializeField] private Vector2EventChannelSO calibrateEvent;
     void Start()

@@ -1,10 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Mapbox.Map;
-using Mapbox.Unity.Map;
-using Mapbox.Unity.Utilities;
-using Mapbox.Utils;
 using UnityEngine;
 
 public class MapManager : MonoBehaviour
