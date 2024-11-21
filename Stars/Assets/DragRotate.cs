@@ -1,8 +1,4 @@
-﻿using Mapbox.Unity.Map;
-using Mapbox.Utils;
-using UnityEngine;
-using UnityEngine.Rendering;
-
+﻿using UnityEngine;
 
     public class DragRotate : MonoBehaviour
     {
@@ -12,7 +8,6 @@ using UnityEngine.Rendering;
         [SerializeField]
         Transform _objectToRotate; // The object to rotate
 
-        [SerializeField] private AbstractMap map;
 
         [SerializeField]
         Camera _camera; // The camera that renders the planet to the RawImage
@@ -105,6 +100,6 @@ using UnityEngine.Rendering;
                 _isTouchingMap = false;
             }
 
-         }
+        }
     }
 
