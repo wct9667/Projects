@@ -29,8 +29,6 @@ public class CalibrateStarField : MonoBehaviour
         Input.location.Start();
     }
 
-    
-    
     internal void Calibrate()
     {
         if (Input.location.status == LocationServiceStatus.Running)

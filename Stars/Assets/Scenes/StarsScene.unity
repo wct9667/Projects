@@ -396,7 +396,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1000014061529118, guid: 3adcee2515f8c49f4a7afb3bacf2c56e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3adcee2515f8c49f4a7afb3bacf2c56e, type: 3}
@@ -763,11 +764,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rawImageTransform: {fileID: 298936292}
   _objectToRotate: {fileID: 547672423}
+  map: {fileID: 547672428}
   _camera: {fileID: 1816857144}
   _multiplier: 3
   _zoomSpeed: 0.1
   _minZoom: 5
   _maxZoom: 20
+  calibrateEvent: {fileID: 0}
 --- !u!1 &334227448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1234,7 @@ Transform:
   m_GameObject: {fileID: 547672422}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 8.19}
+  m_LocalPosition: {x: 0, y: 0, z: 2.97}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1438,25 +1441,28 @@ MonoBehaviour:
   map: {fileID: 547672428}
   markerPrefab: {fileID: 1839187062704024, guid: 9b5b1b761a8994c07affd0a05396633b,
     type: 3}
---- !u!114 &547672431
-MonoBehaviour:
+  collider: {fileID: 0}
+--- !u!135 &547672431
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547672422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9407d2a4576149b18a84d9addc9c8a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _map: {fileID: 547672428}
-  _locations:
-  - 28.317547, -81.539817
-  - 1.371372, 103.77274
-  _spawnScale: 0.01
-  _markerPrefab: {fileID: 1839187062704024, guid: 9b5b1b761a8994c07affd0a05396633b,
-    type: 3}
+  serializedVersion: 3
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &558621139
 GameObject:
   m_ObjectHideFlags: 0
@@ -5869,8 +5875,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 21
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 1
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -5895,7 +5901,7 @@ Transform:
   m_GameObject: {fileID: 1816857142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38, y: 32, z: 599}
+  m_LocalPosition: {x: -38, y: 32, z: 530.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

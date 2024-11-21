@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using Mapbox.Unity.Map;
+using Mapbox.Utils;
+using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace Mapbox.Examples
 {
@@ -9,6 +12,8 @@ namespace Mapbox.Examples
 
         [SerializeField]
         Transform _objectToRotate; // The object to rotate
+
+        [SerializeField] private AbstractMap map;
 
         [SerializeField]
         Camera _camera; // The camera that renders the planet to the RawImage
@@ -25,6 +30,8 @@ namespace Mapbox.Examples
 
         private Vector2 _startTouchPosition; // Store start touch position as Vector2
         private bool _isTouchingMap = false;
+
+        [SerializeField] private Vector2EventChannelSO calibrateEvent;
 
         private void Update()
         {
@@ -43,6 +50,40 @@ namespace Mapbox.Examples
 
                 if (Input.GetMouseButton(0) && _isTouchingMap)
                 {
+
+                    //screen pos to camera ortho space
+                    
+                    //raycast to planet
+                    
+                    //get lat and long
+
+                    Ray ray = new Ray();
+                    ray.origin= _camera.transform.position;
+                    ray.direction = _camera.transform.forward;
+                    
+                    Debug.DrawRay(ray.origin, ray.direction * 1000, Color.red);
+                    // Step 3: Raycast to the planet
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, 8))
+                    {
+                        // Step 4: Get the world position where the ray hits the globe
+                        Vector3 hitPoint = hit.point;
+
+                        // Step 5: Convert the hit point to latitude and longitude
+                        // Transform hitPoint into the globe's local space
+                        Vector3 localHitPoint = _objectToRotate.InverseTransformPoint(hitPoint);
+
+                        // Calculate latitude and longitude from the local hit point
+                        float latitude = Mathf.Asin(localHitPoint.y / 10) * Mathf.Rad2Deg;
+                        float longitude = Mathf.Atan2(localHitPoint.z, localHitPoint.x) * Mathf.Rad2Deg;
+                        
+                        // Log the latitude and longitude
+                        Debug.Log($"Latitude: {latitude}, Longitude: {longitude}");
+                    }
+
+
+                   
+                    
                     // Step 2: Calculate the drag delta in screen space (Vector2)
                     Vector2 dragDelta = screenPosition - _startTouchPosition;
 
@@ -50,7 +91,7 @@ namespace Mapbox.Examples
                     float rotationX = dragDelta.y * _multiplier; // Vertical drag affects X-axis
                     float rotationY = -dragDelta.x * _multiplier; // Horizontal drag affects Y-axis
 
-                    // Step 4: Apply rotation to the object (world-space or local-space as needed)
+                    // Step 4: Apply rotation to the object (world-space)
                     _objectToRotate.Rotate(Vector3.right, rotationX, Space.World);
                     _objectToRotate.Rotate(Vector3.up, rotationY, Space.World);
 
