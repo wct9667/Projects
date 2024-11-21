@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using System;
+using Mapbox.Unity.Map;
+using Mapbox.Utils;
 using UnityEngine.Android;
 
 
@@ -8,6 +10,9 @@ public class CalibrateStarField : MonoBehaviour
 {
     [SerializeField] private Star referenceStar;
 
+    [SerializeField] private AbstractMap map;
+
+    [SerializeField] private Vector2EventChannelSO calibrateEvent;
     void Start()
     {
         // Start the location service to get device position
@@ -24,6 +29,8 @@ public class CalibrateStarField : MonoBehaviour
         Input.location.Start();
     }
 
+    
+    
     internal void Calibrate()
     {
         if (Input.location.status == LocationServiceStatus.Running)
@@ -31,6 +38,9 @@ public class CalibrateStarField : MonoBehaviour
             // User's longitude and latitude
             float userLatitude = Input.location.lastData.latitude;
             float userLongitude = Input.location.lastData.longitude;
+            
+            calibrateEvent.RaiseEvent(new Vector2(userLatitude, userLongitude));
+
 
             // Get current UTC time
             DateTime utcNow = DateTime.UtcNow;

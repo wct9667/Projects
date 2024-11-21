@@ -144,7 +144,6 @@ public class ConstellationManager : MonoBehaviour
     if (!constellationHolder.GetComponent<Constellation>())
       constellationHolder.AddComponent<Constellation>();
     
-    Debug.Log("Index" + index + "Count: " + (constellationVisible.Count-1));
     
     if(constellationVisible.ContainsKey($"Constellation {index}")) Destroy(constellationVisible[$"Constellation {index}"]);
     constellationVisible[$"Constellation {index}"] = constellationHolder;
