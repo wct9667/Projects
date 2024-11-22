@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8507896805944641167}
   - component: {fileID: 4262915633761081023}
   - component: {fileID: 2403840993836470179}
-  m_Layer: 0
+  - component: {fileID: 832084733194504444}
+  m_Layer: 7
   m_Name: Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,3 +108,26 @@ MonoBehaviour:
   size: 0
   color: {r: 0, g: 0, b: 0, a: 0}
   position: {x: 0, y: 0, z: 0}
+  scaleDuration: 0.5
+  targetScaleMultiplier: 10.45
+--- !u!65 &832084733194504444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7383376999954673925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 6.1232336e-17}
+  m_Center: {x: 0, y: 0, z: 0}
