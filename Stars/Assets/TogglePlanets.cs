@@ -7,6 +7,7 @@ public class TogglePlanets : MonoBehaviour
     private bool isOn = false;
     private bool hamburgerOn = false;
     [SerializeField] private GameObject image;
+    [SerializeField] private InputManager input;
 
     private Button button;
 
@@ -21,6 +22,7 @@ public class TogglePlanets : MonoBehaviour
         if (!isOn) image.SetActive(false);
         
         else if(!hamburgerOn) image.SetActive(true);
+        input.enabled = !isOn;
     }
     
     public void OnclickOff()
@@ -29,5 +31,6 @@ public class TogglePlanets : MonoBehaviour
         image.SetActive(false);
         hamburgerOn = !hamburgerOn;
         button.interactable = !hamburgerOn;
+        input.enabled = true;
     }
 }
