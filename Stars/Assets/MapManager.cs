@@ -10,7 +10,6 @@ public class MapManager : MonoBehaviour
 
     public void UpdateMap(Vector2 data)
     {
-        Debug.Log("Updated");
         AddMarkerAtLocation(data[0], data[1]);
     }
 

@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +7,14 @@ public class TogglePlanets : MonoBehaviour
     private bool isOn = false;
     private bool hamburgerOn = false;
     [SerializeField] private GameObject image;
+
+    private Button button;
+
+    private void Start()
+    {
+        button = GetComponent<Button>();
+    }
+
     public void Onclick()
     {
         isOn = !isOn;
@@ -21,5 +28,6 @@ public class TogglePlanets : MonoBehaviour
         isOn = false;
         image.SetActive(false);
         hamburgerOn = !hamburgerOn;
+        button.interactable = !hamburgerOn;
     }
 }

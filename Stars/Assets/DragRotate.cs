@@ -15,10 +15,11 @@ using UnityEngine;
         [SerializeField]
         float _multiplier = 0.1f; // Rotation sensitivity
 
-      private Vector2 _startTouchPosition; // Store start touch position as Vector2
-        private bool _isTouchingMap = false;
+        private Vector2 _startTouchPosition; // Store start touch position as Vector2
+        private bool _isTouchingMap;
 
         [SerializeField] private Vector2EventChannelSO calibrateEvent;
+        [SerializeField] private Vector2EventChannelSO duplicateCalibrateEvent;
 
         
         public void TriggerLocation()
@@ -51,6 +52,7 @@ using UnityEngine;
                     // Log the latitude and longitude
                     Debug.Log($"Latitude: {latitude}, Longitude: {longitude}");
                     calibrateEvent.RaiseEvent(new Vector2(latitude, longitude));
+                    duplicateCalibrateEvent.RaiseEvent(new Vector2(latitude, longitude));
                 }
         }
         private void Update()
