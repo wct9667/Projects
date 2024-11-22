@@ -12,13 +12,11 @@ public class CalibrateStarField : MonoBehaviour
     [SerializeField] private Vector2EventChannelSO calibrateEvent;
     void Start()
     {
-        // Start the location service to get device position
         StartCoroutine(StartLocationService());
     }
 
     IEnumerator StartLocationService()
     {
-        // Wait until the location service initializes
         while (!Input.location.isEnabledByUser)
         {
             yield return new WaitForSeconds(1);
@@ -30,7 +28,6 @@ public class CalibrateStarField : MonoBehaviour
     {
         if (Input.location.status == LocationServiceStatus.Running)
         {
-            // User's longitude and latitude
             float userLatitude = Input.location.lastData.latitude;
             float userLongitude = Input.location.lastData.longitude;
             

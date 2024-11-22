@@ -96,7 +96,6 @@ public class ConstellationManager : MonoBehaviour
   }
 
   
-  //creates all the constellations from the list
   private void CreateConstellations()
   {
     for (int i = 0; i < constellations.Count; i++)
@@ -105,8 +104,7 @@ public class ConstellationManager : MonoBehaviour
       DisableConstellations();
     }
   }
-
-  //enables constellations
+  
   public void EnableConstellations()
   {
     Debug.Log("Enabled All Constellations");
@@ -116,7 +114,6 @@ public class ConstellationManager : MonoBehaviour
     }
   }
   
-  //disables constellations
   public void DisableConstellations()
   { 
     int count = 0;
@@ -135,9 +132,7 @@ public class ConstellationManager : MonoBehaviour
     List<int> constellation = constellations[index].Item1;
     List<int> lines = constellations[index].Item2;
 
-   /* GameObject gameObjectC = GameObject.Find($"Constellation {index}");
-    if(gameObjectC)
-      Destroy(gameObjectC);*/
+
     GameObject constellationHolder = new($"Constellation {index}");
     constellationHolder.transform.parent = transform;
     if (!constellationHolder.GetComponent<Constellation>())

@@ -736,6 +736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 315238048}
+  input: {fileID: 558621140}
 --- !u!114 &298936298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,7 +762,6 @@ GameObject:
   - component: {fileID: 315238052}
   - component: {fileID: 315238051}
   - component: {fileID: 315238050}
-  - component: {fileID: 315238053}
   m_Layer: 5
   m_Name: Planet
   m_TagString: Untagged
@@ -810,6 +810,7 @@ MonoBehaviour:
   calibrateEvent: {fileID: 11400000, guid: 96d1f4f386e6bb740a990ba503b3fb06, type: 2}
   duplicateCalibrateEvent: {fileID: 11400000, guid: a79a32f79ac35e34db1ce4ae3b9096c9,
     type: 2}
+  zoomSpeed: 0.1
 --- !u!114 &315238051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,34 +846,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315238048}
   m_CullTransparentMesh: 1
---- !u!114 &315238053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315238048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78dbd8044ad12494b9f06e0fab151deb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EventChannel: {fileID: 11400000, guid: 91c343faeb1ec4741882bd7bee4eb587, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 315238050}
-        m_TargetAssemblyTypeName: DragRotate, Assembly-CSharp
-        m_MethodName: Zoom
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &334227448
 GameObject:
   m_ObjectHideFlags: 0
