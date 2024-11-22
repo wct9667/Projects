@@ -31,8 +31,8 @@ public class CalibrateStarField : MonoBehaviour
         if (Input.location.status == LocationServiceStatus.Running)
         {
             // User's longitude and latitude
-            float userLatitude = -26.2056f;//Input.location.lastData.latitude;
-            float userLongitude = 28.0337f;//Input.location.lastData.longitude;
+            float userLatitude = Input.location.lastData.latitude;
+            float userLongitude = Input.location.lastData.longitude;
             
             calibrateEvent.RaiseEvent(new Vector2(userLatitude, userLongitude));
             
