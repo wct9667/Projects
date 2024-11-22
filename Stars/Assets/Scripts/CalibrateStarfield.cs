@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using System;
+using UnityEngine.PlayerLoop;
 
 
 public class CalibrateStarField : MonoBehaviour
@@ -30,8 +31,8 @@ public class CalibrateStarField : MonoBehaviour
         if (Input.location.status == LocationServiceStatus.Running)
         {
             // User's longitude and latitude
-            float userLatitude = Input.location.lastData.latitude;
-            float userLongitude = Input.location.lastData.longitude;
+            float userLatitude = -26.2056f;//Input.location.lastData.latitude;
+            float userLongitude = 28.0337f;//Input.location.lastData.longitude;
             
             calibrateEvent.RaiseEvent(new Vector2(userLatitude, userLongitude));
             
@@ -85,25 +86,26 @@ public class CalibrateStarField : MonoBehaviour
             azimuth = 360f - azimuth; 
         }
 
+        Debug.Log("Az:" + azimuth + "alt" + altitude);
         return new Vector2(azimuth, altitude);
     }
 
     // Rotate starmap to align reference star
     void AlignStarField(Vector2 starAzAlt, float phoneAzimuth)
     {
-        // Calculate rotation based on azimuth
+        float adjustedAltitude = -starAzAlt.y + 90;
+        
         Quaternion azimuthRotation = Quaternion.Euler(0, starAzAlt.x - phoneAzimuth, 0);
-
-        // Calculate rotation based on altitude
-        Quaternion altitudeRotation = Quaternion.Euler(starAzAlt.y, 0, 0);
-
-        // Combine rotations with the device's tilt
-        Quaternion finalRotation = azimuthRotation * altitudeRotation;
-
-        // Apply the rotation to the entire starmap
+        
+        Quaternion altitudeRotation = Quaternion.Euler(adjustedAltitude, 0, 0);
+        
+        Quaternion finalRotation = altitudeRotation * azimuthRotation;
+        
         transform.rotation = finalRotation;
     }
     
+
+
     // Speed factor (e.g., 3600 to make 1 second equal to 1 hour of real time)
     public float speedFactor = 3600f;
 
