@@ -1,4 +1,5 @@
-﻿using Unity.VisualScripting;
+﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DragRotate : MonoBehaviour
@@ -20,6 +21,13 @@ public class DragRotate : MonoBehaviour
 
     [SerializeField] private Vector2EventChannelSO calibrateEvent;
     [SerializeField] private Vector2EventChannelSO duplicateCalibrateEvent;
+
+
+    private float referenceFOV;
+    private void Start()
+    {
+        referenceFOV = _camera.fieldOfView;
+    }
 
     public void TriggerLocation()
     {
@@ -53,7 +61,7 @@ public class DragRotate : MonoBehaviour
 
     private void Update()
     {
-        if (Input.touchCount == 1 && !isZooming) // Single touch for rotation
+        if (Input.touchCount == 1 && !isZooming) 
         {
             Touch touch = Input.GetTouch(0);
 
@@ -69,8 +77,8 @@ public class DragRotate : MonoBehaviour
                 {
                     Vector2 dragDelta = touch.position - _startTouchPosition;
 
-                    float rotationX = dragDelta.y * _multiplier; 
-                    float rotationY = -dragDelta.x * _multiplier; 
+                    float rotationX = dragDelta.y * _multiplier * _camera.fieldOfView/ referenceFOV; 
+                    float rotationY = -dragDelta.x * _multiplier * _camera.fieldOfView/ referenceFOV; 
 
                     _objectToRotate.Rotate(Vector3.right, rotationX, Space.World);
                     _objectToRotate.Rotate(Vector3.up, rotationY, Space.World);
