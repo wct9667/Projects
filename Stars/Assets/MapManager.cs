@@ -34,7 +34,7 @@ public class MapManager : MonoBehaviour
         Vector3 worldPos = map.transform.TransformPoint(localPos);
         
         marker.transform.position = worldPos; 
-        marker.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+        marker.transform.localScale = new Vector3(0.04f, 0.04f, 0.04f);
         
         marker.transform.SetParent(transform);
     }
