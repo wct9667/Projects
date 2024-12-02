@@ -85,7 +85,7 @@ public class InputManager : MonoBehaviour
                 if (Time.time - touchStartTime >= holdTimeThreshold)
                 {
                     isHolding = false; 
-                    holdEventChannelSO.RaiseEvent();
+                   // holdEventChannelSO.RaiseEvent();
                 }
             }
             else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)

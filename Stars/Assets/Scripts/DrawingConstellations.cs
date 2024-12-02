@@ -45,7 +45,7 @@ public class DrawingConstellations : MonoBehaviour
 
     void Update()
     {
-        if (!constellationsEnabled && !constellationsDrawingEnabled) return;
+        if (!constellationsDrawingEnabled) return;
         
         // Create a ray from the camera pointing forward
         Ray ray = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
@@ -66,13 +66,6 @@ public class DrawingConstellations : MonoBehaviour
                     haptics.TriggerHaptic();
                 }
                 previousStar = star;
-            }
-
-            if (constellationsEnabled)
-            {
-                if (!star.ConstellationActive())
-                    star.ActivateConstellation();
-                //if(!constellationsDrawingEnabled) star.DeactivateConstellation();
             }
         }
         else

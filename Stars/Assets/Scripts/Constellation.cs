@@ -27,6 +27,7 @@ public class Constellation : MonoBehaviour
     private void FadeOutAndDisable()
     {
         if (!disable) return;
+        
         timeElapsed += Time.deltaTime;
 
 

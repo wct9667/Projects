@@ -3359,7 +3359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f99e7c65c1a4b45a6ae2ea0e4eee98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabledConst: 0
+  enabledConst: 1
   enabledDraw: 0
   imageConst: {fileID: 1000141945}
   imageDraw: {fileID: 545159268}
@@ -5511,7 +5511,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
